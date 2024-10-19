@@ -1,5 +1,5 @@
 {
-  "name": "jsdoc",
+  "name": "@75lb/jsdoc-node23-fix",
   "version": "4.0.3",
   "revision": "1714619656778",
   "description": "An API documentation generator for JavaScript.",
@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsdoc/jsdoc"
+    "url": "git+https://github.com/jsdoc/jsdoc.git"
   },
   "dependencies": {
     "@babel/parser": "^7.20.15",
@@ -43,7 +43,7 @@
     "test": "gulp lint; gulp test"
   },
   "bin": {
-    "jsdoc": "./jsdoc.js"
+    "jsdoc": "jsdoc.js"
   },
   "bugs": "https://github.com/jsdoc/jsdoc/issues",
   "author": {
